@@ -1,6 +1,6 @@
-let op = {
-    scrollX: true
-}
+// let op = {
+//     scrollX: true
+// }
 
 function Swiper(el, option) {
     this.el = typeof el === 'string' ? document.querySelector(el) : el

@@ -1,0 +1,107 @@
+.crash-pagination .contentDefCss {
+    font-size: 12px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    user-select: none;
+}
+/* child */
+.crash-pagination .chilDefCss {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.crash-pagination .chilDefCss:hover {
+    color: #1890ff;
+    border-color: #1890ff;
+}
+/**** arrow ****/
+/* boubleArrow */
+.crash-pagination .doubleArrowCss {
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    color: #1890ff;
+    line-height: 34px;
+}
+
+/* left */
+.crash-pagination .arrowLeftDefCss {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.25);
+    margin-right: 8px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.crash-pagination .arrowLeftDefCss:hover {
+}
+/* right */
+.crash-pagination .arrowRightDefCss {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    color: rgba(0, 0, 0, 0.25);
+    margin-right: 8px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+/* hover */
+/* hover */
+.crash-pagination .arrowLeftDefCss:hover {
+    visibility: hidden;
+}
+
+.crash-pagination .arrowLeftDefCss:hover .doubleArrowCss {
+    visibility: visible;
+}
+
+.crash-pagination .arrowRightDefCss:hover {
+    visibility: hidden;
+}
+
+.crash-pagination .arrowRightDefCss:hover .doubleArrowCss {
+    visibility: visible;
+}
+
+/* button */
+.crash-pagination .buttonDefCss{
+    line-height: 34px;
+}
+
+
+/* action */
+.crash-pagination .actionCss {
+    color: #1890ff;
+    border-color: #1890ff;
+}
+
+/* 不显示 */
+.crash-pagination .hidden {
+    display: none;
+}
+
+.crash-pagination .notAllowed {
+    color: rgba(0, 0, 0, 0.25);
+    border-color: #d9d9d9;
+    cursor: not-allowed;
+}
+
+.crash-pagination .notAllowed:hover {
+    color: rgba(0, 0, 0, 0.25);
+    border-color: #d9d9d9;
+}

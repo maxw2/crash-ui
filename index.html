@@ -10,6 +10,11 @@
     <!-- swiper -->
     <script src='./swiper/swiper.js'></script>
     <link rel="stylesheet" type="text/css" media="screen" href="./swiper/swiper.css">
+    <!-- pagination -->
+    <script src='./pagination/pagination.js'></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./pagination/pagination.css">
+    <!--  -->
+
 </head>
 
 <body>
@@ -27,10 +32,19 @@
 
 </body>
 <script>
+    // swiper
     let swiper = new Swiper('.swiper')
     // setInterval(() => { swiper.prev() }, 100)
 
-    
+    // pagination
+    let pagination = new Pagination('.pagination', {
+        total: 10,
+        pageSize: 10
+    })
+    pagination.onChange((num)=>{
+        console.log(num)
+    })
+    // pagination.remove()
 
 
 </script>
@@ -38,14 +52,16 @@
     .swiper {
         width: 300px;
         height: 200px;
+        margin-bottom: 20px;
     }
 
-    .content {
+    .swiper .content {
         padding: 0px;
         margin: 0px;
         list-style: none;
     }
-    li{
+
+    .swiper .content li {
         background: pink;
     }
 </style>
