@@ -13,8 +13,8 @@
     <!-- pagination -->
     <script src='./pagination/pagination.js'></script>
     <link rel="stylesheet" type="text/css" media="screen" href="./pagination/pagination.css">
-    <!--  -->
-
+    <!-- calendar -->
+    <script src="./calendar/calendar.js"></script>
 </head>
 
 <body>
@@ -38,14 +38,14 @@
 
     // pagination
     let pagination = new Pagination('.pagination', {
-        total: 10,
+        total: 70,
         pageSize: 10
     })
-    pagination.onChange((num)=>{
-        console.log(num)
-    })
+    // pagination.onChange((num)=>{
+    //     console.log(num)
+    // })
     // pagination.remove()
-
+        let calendar = new Calendar()
 
 </script>
 <style>
