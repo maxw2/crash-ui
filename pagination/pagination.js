@@ -62,7 +62,7 @@ Pagination.prototype.getCurrnetArr = function () {
         arr.push(current)
 
         // 左侧
-        if (current > 3) {
+        if (current > 4) {
             arr.unshift(true, current - 2, current - 1)
             // 靠近左面
         } else {
@@ -76,7 +76,7 @@ Pagination.prototype.getCurrnetArr = function () {
         }
 
         // 右侧
-        if (current < currentNum - 2 && arr.length !== 7) {
+        if (current < currentNum - 3 && arr.length !== 7) {
             arr.push(current + 1, current + 2, true)
 
             // 靠近右边    
