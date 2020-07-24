@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./pagination/pagination.css">
     <!-- calendar -->
     <script src="./calendar/calendar.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./calendar/calendar.css">
 </head>
 
 <body>
@@ -29,23 +30,28 @@
 
     <div class="pagination"></div>
 
+    <div class="calendar"></div>
 
 </body>
 <script>
     // swiper
-    let swiper = new Swiper('.swiper')
+    // let swiper = new Swiper('.swiper')
     // setInterval(() => { swiper.prev() }, 100)
 
     // pagination
-    let pagination = new Pagination('.pagination', {
-        total: 70,
-        pageSize: 10
-    })
+    // let pagination = new Pagination('.pagination', {
+    //     total: 70,
+    //     pageSize: 10
+    // })
     // pagination.onChange((num)=>{
     //     console.log(num)
     // })
     // pagination.remove()
-        let calendar = new Calendar()
+    let calendar = new Calendar('.calendar')
+    calendar.onChange((ev) => {
+        console.log(ev)
+    })
+    calendar.remove()
 
 </script>
 <style>
@@ -63,6 +69,12 @@
 
     .swiper .content li {
         background: pink;
+    }
+
+    /* 
+     */
+    .pagination {
+        margin-bottom: 20px;
     }
 </style>
 

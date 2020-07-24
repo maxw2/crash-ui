@@ -35,7 +35,7 @@ function Pagination(el, option) {
     this.event()
     // set
     this.setCurrentArr()
-    console.log(this)
+    // console.log(this)
 
 }
 

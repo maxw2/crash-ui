@@ -1,0 +1,84 @@
+.crash-calendar {
+    font-size: 14px;
+    
+}
+/* content */
+.crash-calendar .contentDefCss {
+    width: 280px;
+    user-select: none;
+    display: inline-block;
+    background: white;
+    box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* header */
+.crash-calendar .headerDefCss {
+    padding: 0 8px;
+    line-height: 40px;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.crash-calendar .headerDefCss .headerNameDefCss {
+    flex: 1;
+    font-weight: 500;
+}
+
+.crash-calendar .headerDefCss .arrowDefCss {
+    transition: color 0.5s ease 0s;
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 13px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+.crash-calendar .headerDefCss .arrowDefCss:hover{
+    color: #000;
+}
+
+
+/* body */
+.crash-calendar .bodyDefCss {
+    padding: 8px 12px;
+}
+.crash-calendar .bodyDefCss .tableDefCss{
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    color: rgba(0,0,0,.65);
+}
+.crash-calendar .bodyDefCss .tableDefCss tbody{
+    cursor: pointer;
+}
+.crash-calendar .bodyDefCss .tableDefCss tbody tr td div{
+    border-radius: 2px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+}
+.crash-calendar .bodyDefCss .tableDefCss tbody tr td div:hover{
+    background: rgba(0,0,0,.1);
+}
+
+
+
+
+/*  */
+.crash-calendar .bodyDefCss .tableDefCss .picker-cell{
+    color: rgba(0,0,0,.25);
+}
+.crash-calendar .bodyDefCss .tableDefCss .todayDefCss{
+    box-sizing: border-box;
+    border: 1px solid #1890ff;
+}
+/* action */
+.crash-calendar .bodyDefCss .tableDefCss .actionDefCss{
+    background: #1890ff;
+    color: white;
+}
+.crash-calendar .bodyDefCss .tableDefCss .actionDefCss:hover{
+    background: #1890ff;
+    color: white;
+}
