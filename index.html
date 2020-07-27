@@ -19,6 +19,9 @@
     <!-- tabs -->
     <script src="./tabs/tabs.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="./tabs/tabs.css">
+    <!-- collapse -->
+    <script src="./collapse/collapse.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./collapse/collapse.css">
 </head>
 
 <body>
@@ -48,6 +51,20 @@
         </div>
     </div>
 
+    <div class="collapse">
+        <div class="content">
+            <div>title1</div>
+            <div>a dog</div>
+        </div>
+        <div class="content">
+            <div>title2</div>
+            <div>a dog</div>
+        </div>
+        <div class="content">
+            <div>title3</div>
+            <div>a dog</div>
+        </div>
+    </div>
 </body>
 <script>
     // swiper
@@ -71,8 +88,8 @@
     calendar.remove()
     // tabs
     let tabs = new Tabs('.tabs')
-
-
+    // collapse
+    let collapse = new Collapse('.collapse')
 
 
 </script>
@@ -102,19 +119,29 @@
     .calendar {
         margin-bottom: 20px;
     }
+
     /*  */
-    .tabs .title1{
+    .tabs .title1 {
         padding: 10px 0;
         margin-right: 10px;
     }
-    .tabs .title2{
+
+    .tabs .title2 {
         width: 100px;
         text-align: center;
     }
-    .tabs .content{
+
+    .tabs .content {
         width: 300px;
         height: 200px;
     }
+
+    /*  */
+    .collapse{
+        margin-bottom: 20px;
+    }
+
+
 </style>
 
 </html>

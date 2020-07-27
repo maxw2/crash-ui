@@ -1,0 +1,28 @@
+.crash-collapes {
+}
+/* content */
+.crash-collapes .contentDefCss{
+    overflow: hidden;
+}
+/* title */
+.crash-collapes .contentDefCss .titleDefCss{
+    cursor: pointer;
+}
+ /* arrow */
+.crash-collapes .contentDefCss .arrowDefCss {
+    float: left;
+    font-size: 12px;
+    transform: rotate(-90deg);
+    transform-origin:center;
+    transition: transform 0.5s ease 0s;
+}
+/* context */
+.crash-collapes .contentDefCss .contextDefCss{
+    height: 0px;
+    transition: all 0.5s ease 0s;
+}
+
+.crash-collapes .contentDefCss .arrowAction{
+    transform: rotate(0deg);
+}
+
