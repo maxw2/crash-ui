@@ -6,7 +6,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
     <!-- swiper -->
     <script src='./swiper/swiper.js'></script>
     <link rel="stylesheet" type="text/css" media="screen" href="./swiper/swiper.css">
@@ -16,6 +16,9 @@
     <!-- calendar -->
     <script src="./calendar/calendar.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="./calendar/calendar.css">
+    <!-- tabs -->
+    <script src="./tabs/tabs.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./tabs/tabs.css">
 </head>
 
 <body>
@@ -32,26 +35,45 @@
 
     <div class="calendar"></div>
 
+    <div class="tabs">
+        <div class="title">
+            <div class="title1">tabs1</div>
+            <div class="title1">tabs2</div>
+            <div class="title1 title2">tabs3</div>
+        </div>
+        <div class="content">
+            <div>content1</div>
+            <div>content2</div>
+            <div>content3</div>
+        </div>
+    </div>
+
 </body>
 <script>
     // swiper
-    // let swiper = new Swiper('.swiper')
+    let swiper = new Swiper('.swiper')
     // setInterval(() => { swiper.prev() }, 100)
 
     // pagination
-    // let pagination = new Pagination('.pagination', {
-    //     total: 70,
-    //     pageSize: 10
-    // })
-    // pagination.onChange((num)=>{
-    //     console.log(num)
-    // })
-    // pagination.remove()
+    let pagination = new Pagination('.pagination', {
+        total: 70,
+        pageSize: 10
+    })
+    pagination.onChange((num) => {
+        console.log(num)
+    })
+    pagination.remove()
+    // calendar
     let calendar = new Calendar('.calendar')
     calendar.onChange((ev) => {
         console.log(ev)
     })
     calendar.remove()
+    // tabs
+    let tabs = new Tabs('.tabs')
+
+
+
 
 </script>
 <style>
@@ -75,6 +97,23 @@
      */
     .pagination {
         margin-bottom: 20px;
+    }
+
+    .calendar {
+        margin-bottom: 20px;
+    }
+    /*  */
+    .tabs .title1{
+        padding: 10px 0;
+        margin-right: 10px;
+    }
+    .tabs .title2{
+        width: 100px;
+        text-align: center;
+    }
+    .tabs .content{
+        width: 300px;
+        height: 200px;
     }
 </style>
 

@@ -51,7 +51,7 @@ function Calendar(el) {
 
 
 
-    console.log(this)
+    // console.log(this)
 }
 // initData
 Calendar.prototype.initData = function () {
