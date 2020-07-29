@@ -254,3 +254,5 @@ Rate.prototype.setBtn = function (num) {
     })
 
 }
+
+export default Rate

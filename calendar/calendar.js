@@ -1,3 +1,4 @@
+import './calendar.css'
 
 function Calendar(el) {
     this.el = typeof el === 'string' ? document.querySelector(el) : el
@@ -425,3 +426,5 @@ Calendar.prototype.onClickAction = function (ev) {
 
 
 }
+
+export default Calendar

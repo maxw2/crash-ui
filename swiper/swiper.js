@@ -101,5 +101,7 @@ Swiper.prototype.prev = function () {
 }
 // change
 Swiper.prototype.onChange = function () {
-
+    
 }
+
+export default Swiper

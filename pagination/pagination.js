@@ -410,3 +410,5 @@ Pagination.prototype.onChange = function (fn) {
         this.eventFn.push(fn)
     }
 }
+
+export default Pagination

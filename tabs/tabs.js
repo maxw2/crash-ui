@@ -99,3 +99,5 @@ Tabs.prototype.onClick = function (ev) {
 
 
 }
+
+export default Tabs

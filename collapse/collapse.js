@@ -125,3 +125,4 @@ Collapse.prototype.onClick = function (ev) {
 
 }
 
+export default Collapse
