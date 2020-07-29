@@ -22,6 +22,9 @@
     <!-- collapse -->
     <script src="./collapse/collapse.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="./collapse/collapse.css">
+    <!-- rate -->
+    <script src="./rate/rate.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./rate/rate.css">
 </head>
 
 <body>
@@ -64,7 +67,11 @@
             <div>title3</div>
             <div>a dog</div>
         </div>
+
     </div>
+
+    <div class="rate"></div>
+
 </body>
 <script>
     // swiper
@@ -90,7 +97,13 @@
     let tabs = new Tabs('.tabs')
     // collapse
     let collapse = new Collapse('.collapse')
-
+    //rate
+    let rate = new Rate('.rate')
+    rate.onChange((num) => {
+        console.log(num)
+    })
+    rate.remove()
+    // console.log(rate)
 
 </script>
 <style>
@@ -137,11 +150,9 @@
     }
 
     /*  */
-    .collapse{
+    .collapse {
         margin-bottom: 20px;
     }
-
-
 </style>
 
 </html>
