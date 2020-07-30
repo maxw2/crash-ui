@@ -52,7 +52,7 @@ export default {
   },
   mounted() {
     this.swiper = new Swiper(".swiper");
-    
+    console.log(this.swiper)
   },
   methods: {
     onPrev() {

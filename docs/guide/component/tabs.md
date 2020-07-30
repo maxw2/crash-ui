@@ -23,9 +23,9 @@ title: tabs - 标签页
 ```
 
 ``` js
-import { Rate } from 'crash-ui'
+import { Tabs } from 'crash-ui'
 
-let calendar = new Calendar('.tabs')
+let tabs = new Tabs('.tabs')
 ```
 
 ## API

@@ -13,9 +13,7 @@ title: pagination - 分页
 ```
 
 ``` js
-import {
-    Pagination
-} from 'crash-ui'
+import { Pagination } from 'crash-ui'
 
 const pagination = new Pagination('.pagination', {
     total: 100, // 总数

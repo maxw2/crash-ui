@@ -1,6 +1,7 @@
 module.exports = {
     title: 'Crash-ui',
     description: 'Just playing around',
+    base:'/crash-ui/',
     themeConfig: {
         nav: [
             { text: '首页', link: '/' },

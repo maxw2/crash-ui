@@ -28,7 +28,7 @@ title: collapse - 折叠面板
 ``` js
 import { Collapse } from 'crash-ui'
 
-let calendar = new Collapse('.collapse')
+let collapse = new Collapse('.collapse')
 ```
 
 ## API
