@@ -1,21 +1,21 @@
 // calender
-import Calender from './calendar/calendar.js'
-import  './calendar/calendar.css'
+import Calender from './src/calendar/calendar.js'
+import  './src/calendar/calendar.css'
 // collapse
-import Collapse from './collapse/collapse.js'
-import './collapse/collapse.css'
+import Collapse from './src/collapse/collapse.js'
+import './src/collapse/collapse.css'
 // Pagination
-import Pagination from './pagination/pagination.js'
-import './pagination/pagination.css'
+import Pagination from './src/pagination/pagination.js'
+import './src/pagination/pagination.css'
 // Rate
-import Rate from './rate/rate.js'
-import './rate/rate.css'
+import Rate from './src/rate/rate.js'
+import './src/rate/rate.css'
 // swiper 
-import Swiper from './swiper/swiper.js'
-import './swiper/swiper.css'
+import Swiper from './src/swiper/swiper.js'
+import './src/swiper/swiper.css'
 // tabs
-import Tabs from './tabs/tabs.js'
-import './tabs/tabs.css'
+import Tabs from './src/tabs/tabs.js'
+import './src/tabs/tabs.css'
 
 
 

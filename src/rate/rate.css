@@ -31,5 +31,5 @@
 .crash-rate .contentDefCss .actionArrow{
     opacity: 1;
     color: #fadb14;
-    /* transition: color 0.5s ease 0s; */
+    transition: color 0.5s ease 0s;
 }

@@ -4,7 +4,7 @@
 }
 /* content */
 .crash-calendar .contentDefCss {
-    width: 280px;
+    /* width: 280px; */
     user-select: none;
     display: inline-block;
     background: white;
