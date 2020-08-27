@@ -26,7 +26,8 @@ module.exports = {
                     '/guide/component/pagination',
                     '/guide/component/collapse',
                     '/guide/component/rate',
-                    '/guide/component/tabs'
+                    '/guide/component/tabs',
+                    '/guide/component/scrollAnimate'
                 ]
             }
         ]

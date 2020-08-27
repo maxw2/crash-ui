@@ -16,7 +16,8 @@ import './src/swiper/swiper.css'
 // tabs
 import Tabs from './src/tabs/tabs.js'
 import './src/tabs/tabs.css'
-
+// scrollAnimate
+import ScrollAnimate from './src/scrollAnimate/scrollAnimate.js'
 
 
 export {
@@ -25,5 +26,6 @@ export {
     Pagination,
     Rate,
     Swiper,
-    Tabs
+    Tabs,
+    ScrollAnimate,
 }
