@@ -23,4 +23,9 @@ let calendar = new Calendar('.calendar')
 | 方法     |         描述         |   属性   |
 |----------|:--------------------:|:--------:|
 | onChange | 内容改变时触发该事件 | Function |
-| remove   | 清除事件            | None     |
+| remove   |       清除事件       |   None   |
+
+</template>
+
+
+
