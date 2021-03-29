@@ -1,0 +1,14 @@
+.crash-scroll {
+    overflow: hidden;
+    user-select: none;
+    cursor: pointer;
+}
+
+.crash-scroll .contentDefCss {
+    display: flex;
+    float: left;
+    position: relative;
+}
+.crash-scroll .contentDefCss .childrenDefCss{
+    
+}

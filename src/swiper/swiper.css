@@ -1,5 +1,5 @@
 /* contentDef */
-.crash-scroll 
+.crash-swiper
 .contentDefCss {
     width:100%;
     height:100%;
@@ -8,7 +8,7 @@
 }
 
 /* contentDef */
-.crash-scroll 
+.crash-swiper 
 .chilDefCss{
     width:100%;
     height:100%;
@@ -19,7 +19,7 @@
 }
 
 /* action */
-.crash-scroll .actionCss{
+.crash-swiper .actionCss{
     width:100%;
     height:100%;
     position:absolute;
@@ -29,7 +29,7 @@
 }
 
 /* next */
-.crash-scroll .nextCss{
+.crash-swiper .nextCss{
     width:100%;
     height:100%;
     position:absolute;
@@ -40,7 +40,7 @@
     visibility: visible;
 }
 
-.crash-scroll .nextActionCss {
+.crash-swiper .nextActionCss {
     width:100%;
     height:100%;
     position:absolute;
@@ -53,7 +53,7 @@
 
 
 /* prev */
-.crash-scroll .prevCss{
+.crash-swiper .prevCss{
     width:100%;
     height:100%;
     position:absolute;
@@ -63,7 +63,7 @@
     transition:transform 1s ease 0s;
     visibility: visible;
 }
-.crash-scroll .prevActionCss {
+.crash-swiper .prevActionCss {
     width:100%;
     height:100%;
     position:absolute;

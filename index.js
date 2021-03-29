@@ -18,7 +18,8 @@ import Tabs from './src/tabs/tabs.js'
 import './src/tabs/tabs.css'
 // scrollAnimate
 import ScrollAnimate from './src/scrollAnimate/scrollAnimate.js'
-
+// scroll
+import Scroll from './src/scroll/scroll.ts'
 
 export {
     Calender,
@@ -28,4 +29,5 @@ export {
     Swiper,
     Tabs,
     ScrollAnimate,
+    Scroll
 }

@@ -39,7 +39,7 @@ Swiper.prototype.removeEvent = function () {
 
 Swiper.prototype.initCss = function () {
     // el
-    this.el.classList.add('crash-scroll')
+    this.el.classList.add('crash-swiper')
     //content defCss
     this.contentEl.classList.add('contentDefCss')
 

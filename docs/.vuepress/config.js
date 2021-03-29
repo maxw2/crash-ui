@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Crash-ui',
     description: 'Just playing around',
-    base:'/crash-ui/',
+    base: '/crash-ui/',
     themeConfig: {
         nav: [
             { text: '首页', link: '/' },
@@ -27,9 +27,21 @@ module.exports = {
                     '/guide/component/collapse',
                     '/guide/component/rate',
                     '/guide/component/tabs',
-                    '/guide/component/scrollAnimate'
+                    '/guide/component/scrollAnimate',
+                    '/guide/component/scroll'
                 ]
             }
         ]
-    }
+    },
+    plugins: [
+        [
+            'vuepress-plugin-typescript',
+            {
+                tsLoaderOptions: {
+                    // ts-loader 的所有配置项
+                    configFile:'tsconfig.json'
+                },
+            },
+        ],
+    ],
 }
